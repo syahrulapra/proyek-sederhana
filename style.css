@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    background: #EEEFF1;
+    position: relative;
+    user-select: none;
+}
+
+.head {
+    display: flex;
+    box-sizing: border-box;
+    margin-inline: 15px;
+    font-size: 15px;
+}
+
+.headl {
+    width: 50%;
+    display: flex;
+    float: left;
+    margin-block: 25px;
+}
+
+.headl img {
+    width: 6%;
+    height: auto;
+}
+
+.headl h1 {
+    width: 50%;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;  
+}
+
+.headr {
+    width: 50%;
+    margin-block: 10px;
+}
+
+.headr a {
+    display: inline;
+    padding: 15px 25px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.headr .active {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.satu {
+    margin-inline: 200px;
+}
+
+.dua {
+    display: flex;
+    margin-block: 25px;
+}
+
+.dua img{
+    width: 25%;
+}
+
+.dkanan {
+    margin-left: 25px;
+    margin-block: 35px;
+}
+
+.dkanan p {
+    margin-top: 5px;
+}
+
+.dkanan h1 {
+    font-size: 50px;
+}
+
+.tiga {
+    display: flex;
+    margin-block: 75px;
+}
+
+.empat {
+    width: 50%;
+}
+
+.empat p {
+    margin-top: 10px;
+}
+
+.lima {
+    width: 50%;
+}
+
+.lima ul li {
+    display: inline-block;
+    border: solid 1px #A9ABB0;
+    border-radius: 5px;
+    padding: 5px;
+    margin-inline: 5px;
+    margin-block: 5px;
+    font-weight: bold;
+}
+
+.enam {
+    margin-block: 100px;
+}
+
+.tujuh {
+    margin-top: 30px;
+    display: flex;
+    font-size: 15px;
+}
+
+.tujuh img {
+    width: 100%;
+}
+
+.tujuh .kiri {
+    width: 60%;
+}
+
+.kiri h1{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.tujuh .kanan {
+    margin-left: 50px;
+}
+
+.delapan {
+    display: flex;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-block: 50px;
+    padding: 50px 50px;
+}
+
+.delapan h1 {
+    width: 50%;
+    font-size: 50px;
+    padding: 0px 25px;
+}
+
+.form {
+    color: #A9ABB0;
+    font-weight: 750;
+    font-size: 13px;
+}
+
+.atas {
+    width: 50%;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.atas .kiri {
+    margin-inline-end: 20px;
+}
+
+#text::-webkit-input-placeholder {
+    color: #A9ABB0;
+}
+
+.form input {
+    margin-top: 5px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 15px;
+    color: #A9ABB0;
+    font-size: 13px;
+    outline: none;
+}
+
+.form #text {
+    width: 285px;
+}
+
+.form textarea {
+    margin-top: 5px;
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    color: #A9ABB0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 15px;
+}
+
+.textarea::-webkit-input-placeholder {
+    color: #A9ABB0;
+}
+
+.form #submit {
+    margin-top: 10px;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.sembilan {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.sebilan .kiri {
+    width: 100%;
+}
+
+.sembilan .kiri img{
+    width: 10%;
+}
+.sembilan{
+    margin-block: 25px;
+}
+.sembilan .skanan {
+    width: 100%;
+    float: right;
+}
+
+.sembilan .skanan a{
+    display: inline;
+    padding: 0px 25px;
+    float: right;
+    text-decoration: none;
+    color: #A9ABB0;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    color: #A9ABB0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon {
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.icon i {
+    margin-block-start: 10px;
+}
